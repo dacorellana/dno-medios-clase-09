@@ -19,7 +19,7 @@ body {
 
 body.portada{
     background:var(--fondo) url('images/portada.jpeg') right bottom no-repeat;
-    background-size:auto 100%;
+    background-size:auto 150%;
 }
 
 a {
