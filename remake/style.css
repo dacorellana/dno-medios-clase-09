@@ -19,7 +19,7 @@ body {
 
 body.portada{
     background:var(--fondo) url('images/portada.jpeg') right bottom no-repeat;
-    background-size:auto 120%;
+    background-size:auto 100%;
 }
 
 a {
@@ -62,18 +62,6 @@ nav p, footer p {
 
 /* para la página de portada */
 
-header {
-    width: 98%;
-    margin-left:1%;
-    margin-right:1%;
-    min-height: 80vh;
-}
-
-header div{
-    width: 50%;
-    padding-top:15vh;
-}
-
 header div h1{
     font-size:calc(3rem + 1vw);
     font-weight: 900;
@@ -82,10 +70,9 @@ header div h1{
 }
 
 header div p{
+    font-family: 'Roboto', sans-serif;
     font-size: calc(0.5rem + 1vw);
     font-weight: 300;
-    margin-top:1rem;
-    line-height: 1.5;
     text-shadow: 0 0 2px var(--fondo);
 }
 
@@ -138,29 +125,6 @@ main article div h2{
     main article{
         width:48%;
     }
-}
-
-/* para cada página de película */
-
-main section{
-    float:left;
-    margin:3% 1% 10% 1%;
-    width:98%;
-}
-
-main section h1{
-    font-size:calc(1.5rem + 1vw);
-    line-height: 1;
-}
-
-main section h3{
-    font-size:1.3rem;
-    line-height: 2.5;
-}
-
-main section h4{
-    font-size:1.2rem;
-    line-height: 2.5;
 }
 
 main section img{
